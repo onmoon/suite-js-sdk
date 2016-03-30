@@ -2,6 +2,7 @@
   "name": "suite-js-sdk",
   "description": "",
   "main": "index.js",
+  "version": "0.1.1",
   "scripts": {
     "test": "NODE_ENV=test mocha --harmony --require co-mocha $(find . -name \"*.spec.js\" -not -path \"./node_modules/*\")",
     "code-style": "eslint $(find . -name \"*.js\" -not -path \"./node_modules/*\")",
