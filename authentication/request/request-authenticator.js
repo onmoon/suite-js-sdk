@@ -52,4 +52,4 @@ var RequestAuthenticator = function(config, context) {
 }
 
 
-module.exports = RequestAuthenticator;
+exports = module.exports = RequestAuthenticator;
